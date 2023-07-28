@@ -1,0 +1,123 @@
+body{
+   display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url(resimler/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Ana{
+
+    flex-direction: row; 
+    margin:0;
+    
+
+}
+.Oyun{
+    margin-top:100px;
+    width: 800px;
+    height: 700px;
+    background-color: rgba(0, 0, 200, 30%);
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin:0;
+    
+}
+
+.Ekran{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 30%);
+    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+}
+
+.Oyuncu{
+    width: 400px;
+    height: 300px;
+ 
+}
+
+
+.CPU{
+    width: 400px;
+    height: 300px;
+}
+
+.Choose{
+    background-color: rgba(0, 0, 0, 20%);
+    width: 800px;
+    height: 399px;
+    display:inline-flex
+}
+
+.Tas{
+
+width: 33%;
+background-color: rgba(255, 0, 0, 30%);
+}
+
+.kagıt{
+    width: 33%;
+background-color: rgba(0, 255, 0, 30%);
+
+}
+
+.makas{
+    width: 33%;
+    background-color: rgba(0, 0, 255, 30%);
+}
+
+#resim1{
+
+    width: 400px;
+    transform: rotate(90deg);
+    margin-top: 90px;
+    padding-right: 50px;
+    height: auto;
+    
+}
+
+#resim2{
+
+    width: 400px;
+    height: auto;
+    transform: rotate(270deg);
+    margin-top: 50px;
+    margin-right: 50px;
+    height: auto;
+}
+
+.resim{
+    width: 300px;
+    height: 300px;
+    margin:0;
+    margin-top: 30px;
+}
+
+h1{
+  color:white;
+  font-size: 35px;
+  font-family:fantasy;
+}
+
+h3{
+   margin:5px;
+    color:white;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+
+    color:white;
+    margin:5px;
+    font-size: 40px;
+}
